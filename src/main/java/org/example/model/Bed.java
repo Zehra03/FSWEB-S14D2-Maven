@@ -25,7 +25,7 @@ public class Bed {
     public int getSheets() {
         return sheets;
     }
-    public int getQuilt() {
+    public int getQuilts() {
         return quilt;
     }
     

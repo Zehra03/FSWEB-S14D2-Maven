@@ -1,6 +1,6 @@
 package org.example.model;
 
-public class Wardrope {
+public class Wardrobe {
     private int width;
     private int height;
     private double weight;
@@ -13,7 +13,7 @@ public class Wardrope {
     public double getWeight() {
         return weight;
     }
-    public Wardrope(int width, int height, double weight) {
+    public Wardrobe(int width, int height, double weight) {
         this.width = width;
         this.height = height;
         this.weight = weight;

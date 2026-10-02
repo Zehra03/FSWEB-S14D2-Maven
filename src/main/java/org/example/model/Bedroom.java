@@ -1,5 +1,5 @@
-package org.example;
-import org.example.model.*;
+package org.example.model;
+
 public class Bedroom {
 private String name;
 private Wall wall1;
@@ -9,7 +9,7 @@ private Wall wall4;
 private Ceiling ceiling;
 private Bed bed;
 private Lamp lamp;
-private Wardrope wardrope;
+private Wardrobe wardrobe;
 private  Carpet carpet;
 public String getName() {
     return name;
@@ -35,14 +35,14 @@ public Bed getBed() {
 public Lamp getLamp() {
     return lamp;
 }
-public Wardrope getWardrope() {
-    return wardrope;
+public Wardrobe getWardrobe() {
+    return wardrobe;
 }
 public Carpet getCarpet() {
     return carpet;
 }
 public Bedroom(String name, Wall wall1, Wall wall2, Wall wall3, Wall wall4, Ceiling ceiling, Bed bed, Lamp lamp,
-        Wardrope wardrope, Carpet carpet) {
+        Wardrobe wardrobe, Carpet carpet) {
     this.name = name;
     this.wall1 = wall1;
     this.wall2 = wall2;
@@ -51,7 +51,7 @@ public Bedroom(String name, Wall wall1, Wall wall2, Wall wall3, Wall wall4, Ceil
     this.ceiling = ceiling;
     this.bed = bed;
     this.lamp = lamp;
-    this.wardrope = wardrope;
+    this.wardrobe = wardrobe;
     this.carpet = carpet;
 }
 
